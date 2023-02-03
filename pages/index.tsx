@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className='flex flex-col text-xl font-semibold space-y-6 mt-6'>
        <button> <Link href="/Authenticatoin"> Authenticatoin </Link></button>
-       <button> <Link href="/AllUsers"> AllUsers </Link> </button>
+       <button> <Link href="/Users"> AllUsers </Link> </button>
       </main>
       
     </ div>
