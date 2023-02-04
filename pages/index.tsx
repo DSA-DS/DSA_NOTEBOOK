@@ -1,3 +1,4 @@
+import NavBar from '@/components/NavBar'
 import { Inter } from '@next/font/google'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -13,10 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='flex flex-col text-xl font-semibold space-y-6 mt-6'>
-       <button> <Link href="/Authenticatoin"> Authenticatoin </Link></button>
-       <button> <Link href="/Users"> AllUsers </Link> </button>
-      </main>
+      <main className='flex flex-col text-xl font-semibold space-y-6'>
+        <h1 className='text-7xl font-thin text-center'>Hey bro.. Whassapppp..!!</h1>
+       </main>
       
     </ div>
   )
