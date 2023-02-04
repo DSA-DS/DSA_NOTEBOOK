@@ -28,7 +28,7 @@ const LoginForm = () => {
               <form>
                 {/* //! ----- name --------- */}
                 {!loginShow && (
-                  <div >
+                  <div>
                     <div className="text-sm font-bold text-gray-700 tracking-wide">
                       Your Name
                     </div>
@@ -78,8 +78,11 @@ const LoginForm = () => {
                 </div>
               </form>
               <div className="mt-12 text-sm font-display font-semibold text-gray-700 text-center">
-                {loginShow ? "Have an Account ? " :"Don't have an account ? "}
-                <button onClick={()=>setLoginShow(!loginShow)} className="cursor-pointer text-indigo-600 hover:text-indigo-800">
+                {loginShow ? "Have an Account ? " : "Don't have an account ? "}
+                <button
+                  onClick={() => setLoginShow(!loginShow)}
+                  className="cursor-pointer text-indigo-600 hover:text-indigo-800"
+                >
                   {loginShow ? "Sign up" : "Log in"}
                 </button>
               </div>
